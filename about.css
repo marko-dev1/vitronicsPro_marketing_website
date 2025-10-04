@@ -35,6 +35,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+/* .btn a{
+  text-decoration: none;
+  color: white;
+ padding: 10px;
+ margin: 10px;
+  
+} */
 .form-container {
   background: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
@@ -57,10 +64,10 @@ align-items: center;
   display: inline-block;
 }
 
-.form-btn {
+/* .form-btn {
   display: inline-block;
 
-}
+} */
 
 .form-container form {
   max-width: 300px;
@@ -79,9 +86,9 @@ form input {
   border: 1px solid gray;
 }
 
-form .btn {
-  width: 100%;
-  border: 2px solid green;
+/* form .btn {
+
+  
   cursor: pointer;
   margin: 10px;
   color: white;
@@ -94,7 +101,7 @@ color: #ffffff;
 }
 form .btn:focus {
   outline: none;
-}
+} */
 
 #LoginForm {
   left: -300px;
@@ -129,11 +136,11 @@ form a {
         @media (max-width: 768px) {
         
       .login-section{
-margin-left:10px ;
-width: 400px;
-display: flex;
-justify-content: center;
-align-items: center;
+    margin-left:10px ;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
            }
         
