@@ -220,42 +220,29 @@ form .btn:focus {
   left: 0;
 }
 
-/* form a {
-  font-size: 12px;
-} */
 
-/* #indicator {
-  width: 100px;
-  border: none;
-  background: #932693;
-  height: 3px;
-  margin-top: 8px;
-  transform: translateX(300px);
-  transition: transform 1s;
-} */
 
+
+
+     @media (max-width: 768px) {
      
-        @media (max-width: 768px) {
-           .cta-section h2{
-            font-size: 15px;
-           }
+        .hero h2{
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            width: 100%;  
         }
 
-        
-        @media (max-width: 768px) {
-        
-      .login-section{
-    margin-left:10px ;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-           }
-        
-
-        
-        footer {
+    .login-section{
+          margin-left:10px ;
+          width: 400px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          }
+  
+  
+    footer {
             background-color: var(--dark);
             color: white;
             padding: 50px 0 30px;
@@ -272,13 +259,17 @@ form .btn:focus {
             color: white;
         }
         
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.5rem;
-            }
+        
+        .hero .hero_title {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            width: 100%;
             
+        }
             .hero p {
-                font-size: 1.1rem;
+                font-size: 1.4rem;
+                color: black;
             }
             footer .container{
                 font-size: 14px;
@@ -289,4 +280,7 @@ form .btn:focus {
            .cta-section .cta-section-title h2 {
                 font-size: 5px;
             }
+                .cta-section h2{
+            font-size: 15px;
+           }
         }
