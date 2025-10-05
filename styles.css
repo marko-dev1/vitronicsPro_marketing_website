@@ -144,21 +144,19 @@
 }
 
 .login-section {
-  background: url("images/home security.avif") no-repeat center center/cover;
-  min-height: 100vh; /* Full page height */
+  background: url("images/home security.avif") no-repeat center;
+  min-height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 
-
-
 .form-container {
   margin-top: 100px;
   background: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
-  width: 350px;
+  width: 375px;
   height: 500px;
   position: relative;
   text-align: center;
@@ -166,6 +164,7 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  border: 1px solid greenyellow;
 }
 
 .form-container span {
@@ -186,7 +185,7 @@
   max-width: 300px;
   padding: 0 30px;
   position: absolute;
-  top: 130px;
+  top: 100px;
   transition: transform 1s;
 }
 
@@ -221,7 +220,7 @@ form .btn:focus {
 }
 
 
-
+/* small screen css  */
 
 
      @media (max-width: 768px) {
@@ -234,7 +233,6 @@ form .btn:focus {
         }
 
     .login-section{
-          margin-left:10px ;
           width: 400px;
           display: flex;
           justify-content: center;
