@@ -1,0 +1,77 @@
+      body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #198754, #20c997);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+         .navbar-brand {
+            font-size: 1.8rem ;
+            font-weight: 700;
+        }
+        .contact_form {
+            background: #ffffff;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .contact_form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .contact_form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .contact_form input:focus {
+            border-color: #198754;
+            outline: none;
+            box-shadow: 0 0 5px rgba(25,135,84,0.4);
+        }
+
+        .contact_form button {
+            background: #1cac12;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            transition: background 0.3s ease;
+        }
+
+        .contact_form button:hover {
+            background: #209508;
+        }
+          .btn{
+         width: 100%;
+        }
+       .btn a{
+            text-decoration: none;
+            color: #fff0f4;
+           
+        }
+        
