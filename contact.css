@@ -36,7 +36,7 @@
             color: #333;
         }
 
-        .contact_form input {
+        /* .contact_form input {
             width: 100%;
             padding: 10px;
             margin-bottom: 18px;
@@ -49,7 +49,31 @@
             border-color: #198754;
             outline: none;
             box-shadow: 0 0 5px rgba(25,135,84,0.4);
-        }
+        } */
+
+        .contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+    border-color: #198754; /* Bootstrap success green */
+    outline: none;
+    box-shadow: 0 0 4px rgba(25, 135, 84, 0.3);
+}
+
+.contact_form textarea {
+    resize: vertical; /* allows user to resize only vertically */
+    min-height: 120px;
+}
+
 
         .contact_form button {
             background: #1cac12;
