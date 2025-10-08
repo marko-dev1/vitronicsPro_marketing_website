@@ -10,7 +10,7 @@ function register() {
 }
 
 function login() {
-  RegForm.style.transform = "translateX(400px)";
+  RegForm.style.transform = "translateX(600px)";
   LoginForm.style.transform = "translateX(300px)";
   indicator.style.transform = "translateX(0px)";
 }

@@ -143,6 +143,7 @@
   box-shadow: 0 8px 18px rgba(0,0,0,0.25);
 }
 
+/* login */
 .login-section {
   background: url("images/home security.avif") no-repeat center;
   min-height: 100vh; 
@@ -151,12 +152,11 @@
   justify-content: center;
 }
 
-
 .form-container {
   margin-top: 100px;
   background: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
-  width: 375px;
+  width: 500px;
   height: 500px;
   position: relative;
   text-align: center;
@@ -172,8 +172,14 @@
   padding: 0 10px;
   color: rgb(242, 81, 108);
   cursor: pointer;
-  width: 100px;
+  width: 150px;
   display: inline-block;
+}
+
+.form-container span:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #10b981;
 }
 
 .form-btn {
@@ -192,7 +198,7 @@
  form input {
   width: 100%;
   height: 30px;
-   margin: 10px ;
+   margin: 20px ;
   padding: 20px 12px; 
   border-radius: 10px;
   border: 1px solid rgb(109, 244, 82);
@@ -206,8 +212,9 @@ form .btn {
  } 
 
 
-form .btn:focus {
-  outline:1px solid rgb(247, 10, 49);
+form .btn:hover{
+  background: #32b910;
+  color: white;
 } 
 
 #LoginForm {
@@ -219,7 +226,23 @@ form .btn:focus {
   left: 0;
 }
 
-
+/* footer css */
+ footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 50px 0 30px;
+        }
+ .social-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: rgb(25, 110, 245);
+        }
+        
 /* small screen css  */
 
 
@@ -233,11 +256,18 @@ form .btn:focus {
         }
 
     .login-section{
-          width: 400px;
+          width: 500px;
           display: flex;
+          margin: 10px;
           justify-content: center;
           align-items: center;
           }
+
+          .form-container {
+  max-width: 450px;
+margin: 10px;
+  
+}
   
   
     footer {
